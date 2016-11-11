@@ -4,15 +4,25 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+/*
+* Import app routing
+*/
+import { AppRoutingModule } from './app-routing.module';
+/*
+* Import dashboard routing
+*/
+import { AdminComponent } from './dashboard/admin.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
