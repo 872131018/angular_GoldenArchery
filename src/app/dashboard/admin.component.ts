@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
     styles: [require('./admin.component.css')]
 })
 
-export class AdminComponent implements OnInit {
+export class Admin implements OnInit {
 
     constructor(
         private router: Router
